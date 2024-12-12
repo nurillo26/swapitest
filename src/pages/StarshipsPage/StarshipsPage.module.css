@@ -1,0 +1,24 @@
+.starships_page_wrap {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 50px;
+}
+
+.table_link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.ships_pagination {
+  display: flex;
+  gap: 5px;
+}

@@ -1,0 +1,33 @@
+.form_wrap {
+  border-radius: 28px;
+  width: 360px;
+  padding: 40px 20px;
+
+  background: rgba(85, 85, 85, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 16px;
+}
+
+.signin_btn {
+  padding: 10px;
+
+  border-radius: 10px;
+  border: 1px solid transparent;
+  outline: none;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in;
+}
+
+.signin_btn:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}

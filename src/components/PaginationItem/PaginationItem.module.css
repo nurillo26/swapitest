@@ -1,0 +1,25 @@
+.pagination_item_wrap {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #000;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.pagination_item_wrap:hover {
+  background-color: orange;
+  border-color: transparent;
+}
+
+.active_page {
+  background-color: orange;
+  border-color: transparent;
+}

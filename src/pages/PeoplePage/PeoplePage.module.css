@@ -1,0 +1,57 @@
+.people_info_wrap {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 50px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+
+  padding: 5px;
+  text-align: center;
+}
+
+tbody tr {
+  position: relative;
+}
+
+tbody tr:hover {
+  background-color: rgb(121, 190, 104);
+}
+
+.table_link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.people_pagination {
+  display: flex;
+  gap: 5px;
+}
+
+@media screen and (max-width: 430px) {
+  table,
+  tr,
+  th,
+  td {
+    padding: 4px;
+  }
+
+  thead th:last-child,
+  tbody td:last-child {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+.form_field {
+  padding: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.field_text {
+  flex: 1;
+  text-align: right;
+}
+
+.field_text input {
+  width: 100%;
+  text-align: right;
+
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+
+.field_text input:hover {
+  background-color: #ebfcf2;
+}
+
+.field_text input:focus {
+  background-color: #ceffe2;
+}
