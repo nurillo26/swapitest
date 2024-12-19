@@ -19,7 +19,8 @@ export const swapiFetchData = createAsyncThunk(
   'swapi/FetchData',
   async ({ entity, page }: { entity: keyof SwapiState; page: number }) => {
     try {
-      const { data } = await axios.get(`https://swapi.dev/api/${entity}/?page=${page}`);
+      // const { data } = await axios.get(`https://swapi.dev/api/${entity}/?page=${page}`);
+      const { data } = await axios.get(`https://swapi.py4e.com/api/${entity}/?page=${page}`);
 
       return { entity, data };
     } catch (error: any) {
